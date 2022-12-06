@@ -2,8 +2,8 @@
 
 ## Alumno/s
 
-- DELGADO, Alejandro (@AlessanderDelgado)
-- HOSHINO, Airin (@airinhoshino)
+- Alumno/a 1 (@usuariodeGitHub)
+- Alumno/a 2 (@usuariodeGitHub)
 
 ## Observaciones
 
