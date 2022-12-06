@@ -2,8 +2,8 @@
 
 ## Alumno/s
 
-- Alumno/a 1 (@airinhoshino)
-- Alumno/a 2 (@AlessanderDelgado)
+- HOSHINO, Airin (@airinhoshino)
+- DELGADO, Alejandro (@AlessanderDelgado)
 
 ## Observaciones
 
