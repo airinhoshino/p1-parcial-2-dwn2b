@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Programación I | Parcial 2 | DELGADO & HOSHINO</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://kit.fontawesome.com/5ac1bd9100.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Programación I | Parcial 2 | DELGADO & HOSHINO | Nuestro carrito</h1>
+        </header>
+        <main>
+
+            <!-- Se deja la estructura estática del carrito -->
+            <div id="minicarrito">
+                <ul>
+                    <li><i class="fa-solid fa-cart-shopping"></i> <span id="mostrarCantidad">0</span> ítems agregados <button type="button" id="vaciarCarrito" class="btn btn-trash fa-regular fa-trash-can fa-lg"></button></li>
+
+                    <li>$ <span id="tuTotalCantidad"class="tuTotal">0</span> PES es el total</li>
+
+                    <li>
+                        <!-- Filtro de categoría -->
+                        <label for="categorias-productos">Filtrar por</label>
+                        <select name="categoria" id="categoria-producto" class="select">
+                                <option value="" selected disabled>--Elija una categoría--</option>
+                                <option value="Blend">Blend</option>
+                                <option value="Kit">Kit</option>
+                                <option value="Accesorios">Accesorios</option>
+                                <option value="Todos">Todos</option>
+                        <!-- Si dejo el value vacío en algún option, toma como valor x defecto el texto que tiene -->
+                        </select>
+                    </li>
+
+                    <li><button class="btn btn-complementary">Ver carrito</button></li>
+                </ul>
+
+            </div>
+
+
+            <h2>Productos</h2>
+
+            <section id="productos" class="card-container">
+                <!-- Acá se crean dinámicamente cards con los productos -->
+            </section>
+
+
+            <div id="contenedorModal">
+                <!-- Creo el div #contenedorModal y genero su contenido dinámicamente -->
+            </div>
+
+        </main>
+
+        <footer>
+            <ul>
+                <li>Profesor Fabrizio Carlassara</li>
+                <li>
+                    <a href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2NB%20-%20DELGADO&HOSHINO" target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
+                </li>
+                <li>Programación 1</li>
+            </ul>
+        </footer>
+
+
+        <script src="clases.js"></script>
+        <script src="index.js"></script>
+
+    </body>
+</html>
